@@ -3,7 +3,7 @@ Small python script for monitoring various crypto currencies using a raspberry p
 
 # background
 First project on the raspberry pi zero w! Trying out python 3.6 and its async module with event loops.
-The aiohttp module is used for REST requests and it uses the api from cryptowat.ch. Supports retrieving price for more than 20+ supported markets and a load of crypto-currencies. 
+The aiohttp module is used for REST requests and it uses the api from [cryptowat.ch](https://cryptowat.ch/). Supports retrieving price for more than 20+ supported markets and a load of crypto-currencies. 
 
 The following endpoint is used to retrieve the 24 hour percent change:
 https://min-api.cryptocompare.com/data/generateAvg?fsym={}&tsym={}&markets={}
