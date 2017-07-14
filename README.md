@@ -1,5 +1,5 @@
 # pi-zero-ethermeter
-Small python script for monitoring various crypto currencies using a raspberry pi zero with a blinkt!.
+Small python script for monitoring various crypto currencies using a raspberry pi zero with a blinkt!. [[video]](https://www.youtube.com/watch?v=rkcM4-2oynY)
 
 # background
 First project on the raspberry pi zero w! Trying out python 3.6 and its async module with event loops.
