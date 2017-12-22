@@ -4,7 +4,7 @@ import json
 
 class CoinApi:
 	""" API implementation for retrieving the current pricing. """
-	url = 'https://min-api.cryptocompare.com/data/generateAvg?fsym={}&tsym={}&markets={}'
+	url = 'https://min-api.cryptocompare.com/data/generateAvg?fsym={}&tsym={}&e={}'
 	loop = None
 
 	def __init__(self, loop, coin, market, currency):
