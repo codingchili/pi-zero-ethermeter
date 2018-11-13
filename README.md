@@ -1,6 +1,11 @@
 # pi-zero-ethermeter
 Small python script for monitoring various crypto currencies using a raspberry pi zero with a blinkt!. [[video]](https://www.youtube.com/watch?v=rkcM4-2oynY)
 
+![image of pi zero W with BLINKT](https://cdn3.bigcommerce.com/s-vt19phz/products/8020/images/16595/Pimoroni_Blinkt_for_Raspberry_Pi_-_RGB_LED_Board_from_Tronixlabs_Australia_4__30072.1473662444.1280.1280.jpg?c=2)
+Image of a pi zero w with a blinkt from Pimoroni - from TronixLabs!
+
+Related project: https://github.com/codingchili/unicorn-analytics
+
 # background
 First project on the raspberry pi zero w! Trying out python 3.6 and its async module with event loops.
 The aiohttp module is used for REST requests and it uses the api from [cryptowat.ch](https://cryptowat.ch/). Supports retrieving price for more than 20+ supported markets and a load of crypto-currencies. 
