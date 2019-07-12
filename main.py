@@ -61,5 +61,5 @@ try:
 	loop.run_until_complete(main(loop))
 	loop.run_forever()
 except KeyboardInterrupt:
-	log('blockchains is the future, goodnight')
+	log('blockchain is the future, goodnight')
 	pass

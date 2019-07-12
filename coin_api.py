@@ -35,4 +35,4 @@ class CoinApi:
 
 	def throttle(self):
 		""" returns the minimum number of seconds to wait before calling data. """
-		return 20
+		return 30
