@@ -22,15 +22,27 @@ Note that some combinations are unavailable, and the leds will flash in PINK.
 
 The values used for the BLINKT that is attached to the pi is 'CHANGEPCT24HOUR', one percent matches 1 led. Negative change gives red leds, positive gives green. Rainbows when reloading data and pink stuff on error. The script will continously poll the API for updates.
 
-# build & install
+# setup
+Warning: this requires python 3.6+ for asyncio.
+  
+- aiohttp and aiodns
+```console
+pip install aiohttp aiodns blinkt
+```
+
+- clone the repository
+```console
+git clone https://github.com/codingchili/pi-zero-ethermeter
+```
+
+- finally start it!
+```console
+python main.py
+```
+
+# installing python 3.6+
 This is easy! Just build python 3.6 from source, install the aiohttp module with pip3.6 and optionally the aiodns for faster DNS lookups.
 
 - python 3.6
   there is even a guide here: https://gist.github.com/dschep/24aa61672a2092246eaca2824400d37f
   it took around 45 minutes to compile and install python3.6 on the raspberry pi zero w!
-  
-- aiohttp and aiodns
-  sudo pip3.6 install aiohttp && sudo pip3.6 install aiodns
-
-# final notes
-:cold_sweat: :X: CRYPTO CURRENCY FEVER :X: :cold_sweat:
