@@ -1,8 +1,8 @@
 # pi-zero-ethermeter
 Small python script for monitoring various crypto currencies using a raspberry pi zero with a blinkt!. [[video]](https://www.youtube.com/watch?v=rkcM4-2oynY)
 
-![image of pi zero W with BLINKT](https://cdn3.bigcommerce.com/s-vt19phz/products/8020/images/16595/Pimoroni_Blinkt_for_Raspberry_Pi_-_RGB_LED_Board_from_Tronixlabs_Australia_4__30072.1473662444.1280.1280.jpg?c=2)
-Image of a pi zero w with a blinkt from Pimoroni - from TronixLabs!
+![image of pi zero W with BLINKT](https://nothans.com/wp-content/uploads/2020/12/pimoroni_kit.jpg)
+Image of a pi zero w with a blinkt from Pimoroni - from nothans.com!
 
 Related project: https://github.com/codingchili/unicorn-analytics
 
